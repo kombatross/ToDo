@@ -21,6 +21,7 @@ body {
   margin: 128px auto;
   border-radius: 10px;
   padding-bottom: 32px;
+  box-shadow: 0 0 10px white;
 }
 
 h1 {
@@ -108,4 +109,9 @@ h1 {
 
 .edit-icon {
   color: #fff;
+}
+
+.click:active{
+  opacity: .5;
+  text-decoration: line-through;
 }
